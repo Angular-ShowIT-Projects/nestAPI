@@ -11,7 +11,7 @@ export class ItemsController {
     @Get()
     findAll(): Promise<Item[]> {
         return this.itemsSrevice.findAll();
-    }
+    }pods 
 
     @Get(':id')
     findOne(@Param('id') id):Promise<Item>{
